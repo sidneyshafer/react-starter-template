@@ -70,7 +70,7 @@ root.render(<App />);
 * Renders the `App` component inside the `root` element in the DOM.
 * The `<App />` syntax is JSX, representing a React component.
 
-The `index.js` component, in summary:
+The summary, the `index.js` component:
 1. Sets up the environment.
 2. Renders the top-level `App` component into the `root` DOM element.
 
@@ -104,7 +104,7 @@ export default App;
 * Allows other files to import `App` (in `index.js` as import `App` from `'./App';`) and use it in the application.
 * In a larger app, the `App` component would usually serve as the container for other components, managing and rendering their content.
 
-The `App.js` component, in summary:
+In summary, the `App.js` component:
 1. Defines a simple functional React component.
 2. Renders an HTML structure using JSX.
 3. Is exported for use as the root component of the app.
