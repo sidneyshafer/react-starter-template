@@ -2,17 +2,22 @@
 Starter template for creating React applications.
 
 ## Usage
-Install dependencies in terminal:
+Install dependencies:
 ```
 npm install
+```
+
+Run dev server:
+```
 npm start
 ```
-To build for production:
+
+Build for production:
 ```
 npm run build
 ```
 
-## Check for Dependency Updates
+Check for dependency updates:
 ```
 npm i -g npm-check-updates
 ncu -u
