@@ -3,7 +3,7 @@
 # Table of Contents
 * [File Structure](#file-structure)
 * [Code Breakdown](#code-breakdown)
-* [Usage](#usage)
+* [App Usage](#app-usage)
 
 ## File Structure
 ```
@@ -32,7 +32,7 @@ react-starter-template/
 
 ### Code Breakdown
 
-The `index.js` file:
+**The `index.js` file:**
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
@@ -74,7 +74,7 @@ The `index.js` component, in summary:
     2. Renders the top-level `App` component into the `root` DOM element.
 
 ---
-The `App.js` file:
+**The `App.js` file:**
 ```js
 function App() {
   return (
@@ -108,7 +108,7 @@ The `App.js` component, in summary:
     2. Renders an HTML structure using JSX.
     3. Is exported for use as the root component of the app.
 
-## Usage
+## App Usage
 Install dependencies:
 ```
 npm install
