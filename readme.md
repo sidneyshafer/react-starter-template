@@ -16,6 +16,7 @@ react-starter-template/
 ├── src/
     ├── assets/
     |   ├── images/
+    |   |   ├── basic.jpg
     ├── components/
     |   ├── Footer.js
     |   ├── Header.js
