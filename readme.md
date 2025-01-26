@@ -31,7 +31,7 @@ react-starter-template/
 ├── readme.md
 ```
 
-### Code Breakdown
+## Code Breakdown
 
 **The `index.js` file:**
 ```js
