@@ -35,7 +35,7 @@ react-starter-template/
 
 **The `index.js` file:**
 ```js
-import React from 'react';
+// import React from 'react';
 import ReactDOM from 'react-dom/client';
 
 import './index.css';
@@ -44,8 +44,9 @@ import App from './App';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
 ```
-`import React from 'react';`
-* This imports the core React library, which is needed to use JSX (JavaScript XML) and create React components.
+`// import React from 'react';`
+* Imports the core React library, which is needed to use JSX (JavaScript XML) and create React components.
+* Starting from release 17, however, you no longer need this statement.
 
 `import ReactDOM from 'react-dom/client';`
 * `ReactDOM` is a library that interacts with the DOM to render React components.
